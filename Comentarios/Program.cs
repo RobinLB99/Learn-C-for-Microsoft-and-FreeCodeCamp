@@ -26,7 +26,7 @@ for (int i = 0; i < orderIDs.Length; i++)
     orderIDs[i] = prefix + suffix;
 }
 
-foreach (var orderID in orderIDs)
+foreach (var orderId in orderIDs)
 {
-    Console.WriteLine(orderID);
+    Console.WriteLine(orderId);
 }

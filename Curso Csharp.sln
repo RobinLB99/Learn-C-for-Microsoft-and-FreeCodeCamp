@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteSpace", "WhiteSpace\Wh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafío de legibilidad del código", "Desafío de legibilidad del código\Desafío de legibilidad del código.csproj", "{0FD4A866-6E11-45AB-9D52-DA6857C1BE4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucles y matrices", "Bucles y matrices\Bucles y matrices.csproj", "{5962778A-9D86-4DCD-9DA7-9D434AAD67D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{0FD4A866-6E11-45AB-9D52-DA6857C1BE4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FD4A866-6E11-45AB-9D52-DA6857C1BE4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FD4A866-6E11-45AB-9D52-DA6857C1BE4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5962778A-9D86-4DCD-9DA7-9D434AAD67D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5962778A-9D86-4DCD-9DA7-9D434AAD67D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5962778A-9D86-4DCD-9DA7-9D434AAD67D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5962778A-9D86-4DCD-9DA7-9D434AAD67D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -41,9 +41,9 @@ foreach (var name in studentNames)
     else
         continue;
 
-    var currentStudentGrade = StudentGrade.getGrade(examAssignments, studentScores);
+    var currentStudentGrade = StudentGrade.GetGrade(examAssignments, studentScores);
 
-    currentStudentLetterGrade = StudentGrade.getLetterGrade(currentStudentGrade);
+    currentStudentLetterGrade = StudentGrade.GetLetterGrade(currentStudentGrade);
 
     Console.WriteLine($"{name}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}");
 }

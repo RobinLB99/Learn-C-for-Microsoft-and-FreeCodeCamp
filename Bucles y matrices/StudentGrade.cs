@@ -1,8 +1,8 @@
 namespace Ejercicio_Creación_de_matrices_y_bucles_foreach;
 
-public class StudentGrade
+public abstract class StudentGrade
 {
-    public static decimal getGrade(int examAssignments, int[] studentScores)
+    public static decimal GetGrade(int examAssignments, int[] studentScores)
     {
         int sumAssignmentScores = 0;
         int gradedAssignments = 0;
@@ -21,7 +21,7 @@ public class StudentGrade
         return (decimal)(sumAssignmentScores) / examAssignments;
     }
     
-    public static string getLetterGrade(decimal grade)
+    public static string GetLetterGrade(decimal grade)
     {
         string currentStudentLetterGrade;
         if (grade >= 97)
